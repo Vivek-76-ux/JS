@@ -1,0 +1,17 @@
+function checkNumber(number) {
+    if (number > 0) {
+      console.log(`${number} is positive`);
+    }
+    else if (number < 0) {
+      console.log(`${number} is negative`);
+    }
+    else {
+      console.log(`${number} is zero`);
+    }
+  }
+  
+  checkNumber(10); 
+  checkNumber(-5); 
+  checkNumber(0); 
+  checkNumber(1); 
+  checkNumber(-1); 
